@@ -1,9 +1,0 @@
-{
-	"name": "Ubuntu 開発環境",
-	"dockerComposeFile": [
-		"../docker-compose.yml"
-	],
-	"service": "ubuntu",
-	"containerUser": "NaoyaOgura",
-	"workspaceFolder": "/home/NaoyaOgura"
-}

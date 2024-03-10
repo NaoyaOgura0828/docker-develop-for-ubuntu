@@ -14,7 +14,8 @@ RUN apt-get update -y &&\
     apt-get upgrade -y
 
 # Install Packages
-RUN apt-get install curl -y &&\
+RUN apt-get update -y &&\
+    apt-get install curl -y &&\
     apt-get install git -y &&\
     apt-get install sudo -y &&\
     apt-get install unzip -y &&\
